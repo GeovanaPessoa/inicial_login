@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="icon" href="logoi.png">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="logo.png" class="menu-logo" alt="logo" width="300px" height="100px"></a>
+     </div>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Cadastrar</h1>
+                <span>Ultilize seu Email Empresarial</span>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <button>Cadastrar</button>
+            </form>
+        </div>
+     <div class="form-container sign-in">
+            <form>
+                <h1>Entrar</h1>
+                <span>Ensira seu email e senha</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <a href="index.html">Esqueceu a Senha?</a>
+                <a href="index.html"><button> Entrar</button></a>
+                <a href="index.html"> voltar</a>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem vindo de volta!</h1>
+                    <p>Insira seus dados para entrar</p>
+                    <button class="hidden" id="login">Entrar</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Olá </h1>
+                    <p>Crie uma conta para Anunciar vagas</p>
+                    <button class="hidden" id="register">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
